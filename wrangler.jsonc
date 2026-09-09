@@ -35,13 +35,13 @@
         },
     ],
     "observability": {
-        "logs": {
-            "enabled": true
-        }
+    "logs": {
+      "enabled": true
     }
+  },
+  "vars": {
+    "OSU_API_CLIENT_ID": "67975",
+    "OSU_API_CLIENT_SECRET": "sH75aJ2oyNSPbPwiDPCKefcyiurOCAmI7JX5T7PN",
+    "TRUST_CF_CONNECTING_IP": "true"
+  }
 }
-
-[vars]
-OSU_API_CLIENT_ID = "67975"
-OSU_API_CLIENT_SECRET = "sH75aJ2oyNSPbPwiDPCKefcyiurOCAmI7JX5T7PN"
-TRUST_CF_CONNECTING_IP = "true"
